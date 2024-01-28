@@ -3,6 +3,10 @@
 using namespace std;
 
 class Calculator {
+    private:
+    double num1;
+    double num2;
+
 public:
     // Constructor
     Calculator() ;
