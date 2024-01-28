@@ -8,7 +8,9 @@ public:
     Calculator() ;
 
     // Function to add two numbers
-    double add() ;
+    double add(){
+        return num1 + num2;
+    }
 
     // Function to subtract two numbers
     double subtract() ;
