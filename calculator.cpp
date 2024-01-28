@@ -29,7 +29,14 @@ public:
 
 
     // Function to divide two numbers
-    double divide() ;
+      double divide() {
+        if (num2 != 0) {
+            return num1 / num2;
+        } else {
+            cout << "Cannot divide by zero!" << endl;
+            return 0.0; // You can choose to handle this differently based on your requirements
+        }
+    }
 };
 
 int main() {
