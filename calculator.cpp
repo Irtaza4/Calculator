@@ -9,8 +9,12 @@ class Calculator {
 
 public:
     // Constructor
-    Calculator() ;
-
+    Calculator() {
+        cout << "Enter first number: ";
+        cin >> num1;
+        cout << "Enter second number: ";
+        cin >> num2;
+    }
     // Function to add two numbers
     double add() ;
 
