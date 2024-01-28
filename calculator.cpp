@@ -3,10 +3,18 @@
 using namespace std;
 
 class Calculator {
+    private:
+    double num1;
+    double num2;
+
 public:
     // Constructor
-    Calculator() ;
-
+    Calculator() {
+        cout << "Enter first number: ";
+        cin >> num1;
+        cout << "Enter second number: ";
+        cin >> num2;
+    }
     // Function to add two numbers
     double add() ;
 
