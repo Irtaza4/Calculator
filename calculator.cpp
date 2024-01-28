@@ -21,7 +21,9 @@ public:
     }
 
     // Function to subtract two numbers
-    double subtract() ;
+    double subtract(){
+        return num1 - num2;
+    }
 
     // Function to multiply two numbers
      // Function to multiply two numbers
