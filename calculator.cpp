@@ -22,7 +22,11 @@ public:
     double subtract() ;
 
     // Function to multiply two numbers
-    double multiply() ;
+     // Function to multiply two numbers
+    double multiply() {
+        return num1 * num2;
+    }
+
 
     // Function to divide two numbers
     double divide() ;
